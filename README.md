@@ -1,6 +1,5 @@
-<br>
-<img src="https://insight-media.be/images/gh/logo-dark.svg#gh-dark-mode-only" height="80">
-<img src="https://insight-media.be/images/gh/logo-light.svg#gh-white-mode-only" height="80">
+![Insight Media Logo](https://insight-media.be/images/gh/logo-dark.svg#gh-dark-mode-only#gh-dark-mode-only|height=100px)
+![Insight Media Logo](https://insight-media.be/images/gh/logo-light.svg#gh-white-mode-only#gh-dark-mode-only|height=100px)
 
 # Statamic Pdf Thumbnailer
 
