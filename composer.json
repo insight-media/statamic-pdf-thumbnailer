@@ -1,0 +1,32 @@
+{
+    "name": "insight-media/statamic-pdf-thumbnailer",
+    "description": "A Statamic addon to automatically generate a thumbnail per uploaded PDF asset",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Insight media",
+            "email": "dries@insight-media.be",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "InsightMedia\\StatamicPdfThumbnailer\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Pdf Thumbnailer addon",
+            "description": "A Statamic addon to automatically generate a thumbnail per uploaded PDF asset"
+        },
+        "laravel": {
+            "providers": [
+                "InsightMedia\\StatamicPdfThumbnailer\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "spatie/pdf-to-image": "^1.2"
+    }
+}
