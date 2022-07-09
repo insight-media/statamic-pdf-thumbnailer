@@ -17,6 +17,10 @@
 - Includes a page number selector, when an image preview other than the first page is needed
 - Includes a simple tag to show the image previews in your antlers templates
 
+## Requirements
+
+You should have [Imagick](https://www.php.net/manual/en/book.imagick.php) and [Ghostscript](https://www.ghostscript.com) installed. [See issues](https://github.com/spatie/pdf-to-image#issues-regarding-ghostscript) regarding Ghostscript on the underlying Spatie package page.
+
 ## How to Install
 
 You can search for this addon in the `Tools > Addons` section of the Statamic control panel and click **install**, or run the following command from your project root:
