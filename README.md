@@ -1,5 +1,8 @@
-![Insight Media Logo](https://insight-media.be/images/gh/logo-dark.svg#gh-dark-mode-only)
-![Insight Media Logo](https://insight-media.be/images/gh/logo-light.svg#gh-white-mode-only)
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://insight-media.be/images/gh/logo-dark.svg">
+  <img alt="Insight Media Logo" src="https://insight-media.be/images/gh/logo-light.svg">
+</picture>
 
 # Statamic Pdf Thumbnailer
 
