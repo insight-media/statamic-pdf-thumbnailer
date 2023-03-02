@@ -27,9 +27,6 @@ class PdfToImage
                 'pdf_page_count' => $pdf->getNumberOfPages(),
                 'pdf_converted_page' => $pageNumber
             ])->save();
-
-            unlink($imageFilePath);
-
         }
 
     }
