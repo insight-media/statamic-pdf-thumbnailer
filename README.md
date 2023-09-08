@@ -39,10 +39,10 @@ For example, if you have an Assets fieldtype named 'catalogs', containing some P
 {{ catalogs }}
 
     <a href="{{ url }}">
-        <img src="{{ pdf to=thumbnail }}">
+        <img src="{{ pdf :to="thumbnail" }}">
         
         <!-- or when using glide: -->
-        <img src="{{ glide src=thumbnail width='200' }}">
+        <img src="{{ glide src=thumbnail width="200" }}">
     </a>
 
 {{ /catalogs }}
